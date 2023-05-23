@@ -10,6 +10,7 @@ module.exports = {
       fontSize: {
         'extra-large': '3.2rem',
         'large': '2.2rem',
+        'medium': '1.2rem'
       },
       colors: {
         purple: {
