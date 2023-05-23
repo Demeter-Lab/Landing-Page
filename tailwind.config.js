@@ -9,6 +9,7 @@ module.exports = {
     extend: {
       fontSize: {
         'extra-large': '3.2rem',
+        'large': '2.2rem',
       },
       colors: {
         purple: {

@@ -1,8 +1,10 @@
 import Head from "next/head";
 import Navbar from "@/components/Navbar";
 import HeroSection from "@/components/Hero";
+import StatCounter from "@/components/StatCounter";
+import AboutUs from "@/components/AboutUs";
 
-export default function Home() {
+export default function Home () {
   const navItems = [
     { href: "/explore", text: "Explorer" },
     { href: "/blog", text: "Documentation" },
@@ -28,6 +30,8 @@ export default function Home() {
         getStartedButton={getStartedButton}
       />
       <HeroSection />
+      <StatCounter />
+      <AboutUs />
     </>
   );
 }
