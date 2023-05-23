@@ -21,7 +21,7 @@ const FAQ: React.FC<FAQProps> = ({ faqItems }) => {
   };
 
   return (
-    <div className="container mx-auto px-4 py-8">
+    <div id="faq" className="container mx-auto px-4 py-8">
       <h2 className="text-3xl font-bold text-white mb-4 text-center">Frequently Asked Questions</h2>
       <div className="grid grid-cols-1 gap-4 mt-8">
         {faqItems.map((faqItem, index) => (

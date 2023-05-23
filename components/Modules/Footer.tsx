@@ -4,7 +4,7 @@ import { FaTwitter, FaDiscord, FaGithub, FaPhone, FaEnvelope } from "react-icons
 
 const Footer: React.FC = () => {
   return (
-    <footer className="container mx-auto px-4 py-8 flex flex-col items-center text-white">
+    <footer className="bg-[black] container mx-auto px-4 py-8 flex flex-col items-center text-white border-1 border-grey-300">
       <div className="lg:w-5/6 mx-auto grid lg:grid-cols-12 py-16">
         {/* Logo */}
         <div className="text-3xl lg:col-span-4">
@@ -45,9 +45,6 @@ const Footer: React.FC = () => {
             <div className="flex flex-col gap-3">
               <div>
                 <Link href="/">Home</Link>
-              </div>
-              <div>
-                <Link href="/#about-us">About Us</Link>
               </div>
               <div>
                 <Link href="/#features">Features</Link>
@@ -96,7 +93,7 @@ const Footer: React.FC = () => {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://join.slack.com/t/quiardhq/shared_invite/zt-1uys4uo7k-PNdgNv0bdsk7Ezb52HMhfg"
+                  href="https://join.slack.com/t//shared_invite/zt-1uys4uo7k-PNdgNv0bdsk7Ezb52HMhfg"
                 >
                   <div className="flex space-x-2 items-center">
                     <div>
@@ -111,7 +108,7 @@ const Footer: React.FC = () => {
         </div>
       </div>
       <div className="text-center">
-        <div className="w-4/5 border border-[#594D6F] mb-5 mx-auto"></div>
+        <div className="w-1/1 border border-[#594D6F] mb-5 mx-auto"></div>
         <div>&copy; BUIDL3 2023. All rights reserved</div>
       </div>
     </footer>

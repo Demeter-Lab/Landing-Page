@@ -28,7 +28,7 @@ const features = [
 
 const AboutUs: React.FC = () => {
   return (
-    <div>
+    <div id="features">
       <FeatureSection features={features} />
     </div>
   );
