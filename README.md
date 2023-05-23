@@ -1,6 +1,8 @@
 # BUIDL3 - Frontend
+## Build Status
+  [![Netlify Status](https://api.netlify.com/api/v1/badges/f3257070-b379-4f87-b63f-649a01579db0/deploy-status)](https://app.netlify.com/sites/buidl3/deploys)
 
-  
+## Get started
 
 Welcome to the frontend repository of BUIDL3! This repository contains the codebase for the user interface of the platform, allowing users to deploy basic smart contracts without coding.
 
