@@ -1,6 +1,6 @@
 import React from "react";
 import Link from "next/link";
-import { FaTwitter, FaSlack, FaGithub, FaPhone, FaEnvelope } from "react-icons/fa";
+import { FaTwitter, FaDiscord, FaGithub, FaPhone, FaEnvelope } from "react-icons/fa";
 
 const Footer: React.FC = () => {
   return (
@@ -96,13 +96,13 @@ const Footer: React.FC = () => {
                 <a
                   rel="noopener noreferrer"
                   target="_blank"
-                  href="https://join.slack.com/t/quizardhq/shared_invite/zt-1uys4uo7k-PNdgNv0bdsk7Ezb52HMhfg"
+                  href="https://join.slack.com/t/quiardhq/shared_invite/zt-1uys4uo7k-PNdgNv0bdsk7Ezb52HMhfg"
                 >
                   <div className="flex space-x-2 items-center">
                     <div>
-                      <FaSlack size={24} />
+                      <FaDiscord size={24} />
                     </div>
-                    <div>Slack</div>
+                    <div>Discord</div>
                   </div>
                 </a>
               </div>
